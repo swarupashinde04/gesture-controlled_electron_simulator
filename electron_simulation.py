@@ -12,7 +12,6 @@ vx = 3
 vy = 3
 
 clock = pygame.time.Clock()
-
 running = True
 while running:
 
