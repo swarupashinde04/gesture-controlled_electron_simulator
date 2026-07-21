@@ -1,7 +1,7 @@
 import cv2 
 import mediapipe as mp
   
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) 
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands(min_detection_confidence=0.7,
